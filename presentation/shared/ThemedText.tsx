@@ -16,7 +16,7 @@ const ThemedText =
    return(
 
        <Text className={[
-           'text-light-text dark:dark-text',
+           'text-black dark:text-white',
            type == 'normal' ? 'text-normal' : undefined,
            type == 'h1' ? 'text-3xl' : undefined,
            type == 'h2' ? 'text-xl' : undefined,
