@@ -49,10 +49,12 @@ export default function RootLayout() {
                  {
                      allRoutes.map(route => (
                          <Stack.Screen
+
                          key={route.name}
                         name={route.name}
                         options={{
-                            title: route.name
+                            title: route.name,
+                            headerShown: !route.title.includes('Slides')
                         }}
                          />
                          )

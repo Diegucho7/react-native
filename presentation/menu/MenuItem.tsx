@@ -24,7 +24,7 @@ const MenuItem
     return (
         <Pressable
         onPress={()=> router.push(routeName as Href)}
-        className="bg-white dark:bg-black/15 px-5 py-2"
+        className="bg-white dark:bg-black/15  px-5 py-2"
         style={{
             ...(isFirst && {
                 borderTopLeftRadius: 10,
